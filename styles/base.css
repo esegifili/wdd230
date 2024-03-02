@@ -56,9 +56,15 @@ main {
     display: block;
 }
 
+h1 #wddtitle {
+   border;
+}
+
 .card {
-    border: black;
-    border-radius: 0%;
+    border-bottom: black, .5px;
+    border-style: solid;
+    margin: 1rem;
+    padding: .5rem;
     
 }
 
