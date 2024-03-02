@@ -1,58 +1,56 @@
 @media screen and (min-width: 640px) {
-
-header {
+  header {
     display: flex;
     justify-content: center;
     gap: 1rem;
-}
+  }
 
-h1 {
+  h1 {
     font-size: 2.5rem;
-}
+  }
 
-nav ul {
+  nav ul {
     display: flex;
-}
+  }
 
-nav ul li {
+  nav ul li {
     flex: 1 1 100%;
     font-size: 1.2rem;
-}
+  }
 
-main {
+  main {
     max-width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: auto 1fr;
     grid-column-gap: 2rem;
-}
+  }
 
-.card ul li {
+  .card ul li {
     font-size: 1.2rem;
-}
+  }
 
-#wddtitle {
+  #wddtitle {
     grid-column: 1/3;
     grid-row: 1/2;
-}
+  }
 
-.card {
+  .card {
     grid-row: 2/3;
-}
+  }
 
-h2 {
+  h2 {
     padding: 1rem;
-}
+  }
 
-p {
+  p {
     padding: 1rem;
-}
+  }
 
-footer p {
+  footer p {
     font-size: 1rem;
     margin: 1rem 0 0 0;
-    height: 15px;
-}
-
+    height: 10px;
+  }
 }
