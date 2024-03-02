@@ -97,6 +97,10 @@ h2 {
   font-weight: bold;
 }
 
+.card a:hover {
+  background-color: rgba(93, 210, 220, 0.902);
+}
+
 p {
   text-align: center;
 }
