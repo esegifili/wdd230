@@ -26,7 +26,7 @@ h1 {
 }
 
 nav {
-    background-color: #8E6861;
+    background-color: #e5a397;
     margin: 0;
 }
 
@@ -44,16 +44,21 @@ nav a {
 }
 
 nav ul a:hover {
-    background-color: rgba(51, 160, 170, 0.406);
+    background-color: rgba(45, 142, 151, 0.306);
 }
 
 nav ul .active {
-    background-color: rgba(58, 227, 224, 0.726);
+    background-color: rgba(45, 142, 151, 0.70);
     
 }
 
 main {
     display: block;
+}
+
+.card {
+    border: black;
+    
 }
 
 h2 {
