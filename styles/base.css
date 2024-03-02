@@ -26,7 +26,7 @@ h1 {
 }
 
 nav {
-    background-color: #55635E;
+    background-color: #8E6861;
     margin: 0;
 }
 
@@ -48,7 +48,7 @@ nav ul a:hover {
 }
 
 nav ul .active {
-    background-color: rgba(58, 184, 227, 0.726);
+    background-color: rgba(58, 227, 224, 0.726);
     
 }
 
