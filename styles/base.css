@@ -22,8 +22,6 @@ header {
 img {
   grid-column: 1/2;
   padding: 0;
-  width: 80px;
-  height: 100px;
 }
 
 #myName {
