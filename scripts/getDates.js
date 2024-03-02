@@ -1,4 +1,6 @@
 let copyear = new Date();
 let currentYear = copyear.getFullYear();
 
-let lastModified = document.lastModified;
+let lastMod = new Date(document.lastModified);
+
+document.getElementById("lastMod").innerHTML = "Last modified on : " + lastMod;
