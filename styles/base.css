@@ -26,6 +26,7 @@ h1 {
 
 nav {
     background-color: #FFD9CB;
+    align-content: center;
 }
 
 nav ul {
@@ -40,7 +41,7 @@ nav a {
     text-decoration: none;
 }
 
-nav ul a:hover {
+nav a:hover {
     background-color: rgba(212, 94, 94, 0.199);
 }
 
