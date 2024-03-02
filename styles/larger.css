@@ -5,9 +5,9 @@
     gap: 1rem;
   }
 
-  header img {
-    height: 268px;
-    width: 234px;
+  img {
+    height: 200px;
+    width: 180px;
   }
 
   #myName {
