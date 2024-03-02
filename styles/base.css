@@ -14,6 +14,7 @@ header {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
     font-style: normal;
+    margin: 0;
 }
 
 h1 {
@@ -25,11 +26,13 @@ h1 {
 }
 
 nav {
-    background-color: #FFD9CB;
+    background-color: #fcdfd5;
+    margin: 0;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
 }
 
 nav a {
@@ -40,12 +43,12 @@ nav a {
     text-decoration: none;
 }
 
-nav a:hover {
+nav ul a:hover {
     background-color: rgba(212, 94, 94, 0.199);
 }
 
-nav .active {
-    background-color: rgba(134, 2, 2, 0.304);
+nav ul .active {
+    background-color: rgba(134, 2, 2, 0.541);
     
 }
 
@@ -54,5 +57,5 @@ main {
 }
 
 h2 {
-    background-color: #A5343A;
+    background-color: #DB8776;
 }
