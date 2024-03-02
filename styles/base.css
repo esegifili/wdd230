@@ -1,0 +1,18 @@
+body {
+    background-color: #FFD9CB;
+}
+
+header {
+    background-color: #A5343A;
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
