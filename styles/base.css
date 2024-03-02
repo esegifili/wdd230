@@ -9,13 +9,18 @@ body {
 
 header {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr;
   padding: 1rem;
   background-color: #ec775f;
   font-family: 'DM Serif Text', serif;
   font-weight: 400;
   font-style: normal;
   margin: 0;
+}
+
+header img {
+  grid-column: 1/2;
 }
 
 h1 {
