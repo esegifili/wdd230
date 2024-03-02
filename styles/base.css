@@ -58,6 +58,7 @@ main {
 
 .card {
     border: black;
+    border-radius: 0%;
     
 }
 
