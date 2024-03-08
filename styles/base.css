@@ -29,12 +29,9 @@ header {
   font-size: 2rem;
 }
 
-main.dark {
+.mode-dark {
   background-color: black;
   padding: 1rem;
-}
-
-main.dark h1 {
   color: whitesmoke;
 }
 
@@ -87,8 +84,7 @@ nav ul .active {
 
 main {
   display: block;
-  background-color: whitesmoke;
-  color: black;
+  padding: 1rem;
 }
 
 #wddtitle {
