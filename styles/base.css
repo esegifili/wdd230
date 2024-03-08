@@ -31,7 +31,7 @@ header {
 
 main.dark {
   background-color: black;
-  margin: 2rem;
+  margin: 0;
   padding: 1rem;
 }
 
@@ -88,7 +88,8 @@ nav ul .active {
 
 main {
   display: block;
-  margin: 0;
+  background-color: whitesmoke;
+  color: black;
 }
 
 #wddtitle {
