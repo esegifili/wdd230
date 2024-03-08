@@ -3,7 +3,7 @@ const input = document.querySelector('#favchap')
 const button = document.querySelector('button')
 
 button.addEventListener('click', () => {
-  const product = input.value
+  const scripture = input.value
   input.value = ''
 
   const listItem = document.createElement('li')
@@ -11,7 +11,7 @@ button.addEventListener('click', () => {
   const listBtn = document.createElement('button')
 
   listItem.appendChild(listText)
-  listText.textContent = product
+  listText.textContent = scripture
   listItem.appendChild(listBtn)
   listBtn.textContent = '❌'
   list.appendChild(listItem)
