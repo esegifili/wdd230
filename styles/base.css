@@ -29,11 +29,8 @@ header {
   font-size: 2rem;
 }
 
-main .dark {
-  background-color: black;
-}
-
 main .dark h1 {
+  background-color: black;
   color: whitesmoke;
 }
 
