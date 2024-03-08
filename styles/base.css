@@ -24,9 +24,17 @@ header {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 3rem;
+  font-size: 4rem;
   cursor: pointer;
   font-size: 2rem;
+}
+
+main.dark {
+  background-color: black;
+}
+
+main.dark h2 {
+  color: whitesmoke;
 }
 
 img {
