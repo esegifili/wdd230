@@ -20,11 +20,11 @@ header {
   margin: 0;
 }
 
-#mode {
+button {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 4rem;
+  font-size: 1rem;
   cursor: pointer;
   font-size: 2rem;
 }
