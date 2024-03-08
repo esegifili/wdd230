@@ -1,25 +1,24 @@
-const button = document.querySelector('button')
+const list = document.querySelector('#list')
 const input = document.querySelector('#favchap')
-const list = documentquerySelector('#list')
+const button = document.querySelector('button')
 
 button.addEventListener('click', () => {
-  const scrip = input.value
+  const product = input.value
   input.value = ''
 
-  const li = document.createElement('li')
+  const listItem = document.createElement('li')
   const listText = document.createElement('span')
-  const deleteButton = document.createElement('button')
+  const listBtn = document.createElement('button')
 
-  li.textContent = scrip
-  deleteButton.textContent = '❌'
-  listText.textContent = scrip
-  li.append(deleteButton)
-  list.append(li)
+  listItem.appendChild(listText)
+  listText.textContent = product
+  listItem.appendChild(listBtn)
+  listBtn.textContent = '❌'
+  list.appendChild(listItem)
 
-  deleteButton.addEventListener('click', () => {
-    list.removeChild(li)
+  listBtn.addEventListener('click', () => {
+    list.removeChild(listItem)
   })
 
   input.focus()
-  input.value = ''
 })
