@@ -1,5 +1,6 @@
+const darkBtn = document.querySelector('button')
 const darkMode = document.querySelector('.dark-mode')
 
 function dark () {
-  document.classList.toggle('darkMode')
+  darkBtn.toggle('darkMode')
 }
