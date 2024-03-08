@@ -29,11 +29,11 @@ header {
   font-size: 2rem;
 }
 
-main.dark {
+main .dark {
   background-color: black;
 }
 
-main.dark h2 {
+main .dark h1 {
   color: whitesmoke;
 }
 
