@@ -9,6 +9,7 @@ body {
 
 header {
   display: grid;
+  position: relative;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr;
   padding: 1rem;
@@ -17,6 +18,15 @@ header {
   font-weight: 400;
   font-style: normal;
   margin: 0;
+}
+
+#mode {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 3rem;
+  cursor: pointer;
+  font-size: 2rem;
 }
 
 img {
