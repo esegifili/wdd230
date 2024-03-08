@@ -29,8 +29,9 @@ header {
   font-size: 2rem;
 }
 
-main.dark {
+main .dark {
   background-color: black;
+  margin: 0;
 }
 
 img {
