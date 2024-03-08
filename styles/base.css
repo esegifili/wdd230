@@ -4,7 +4,6 @@ body {
   font-family: 'Arsenal', sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 1rem;
 }
 
 header {
@@ -24,14 +23,17 @@ button {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  font-size: 1rem;
+  font-size: 3rem;
   cursor: pointer;
   font-size: 2rem;
 }
 
-.mode-dark {
+.dark-mode {
   background-color: black;
   padding: 1rem;
+}
+
+.dark-mode h1 {
   color: whitesmoke;
 }
 
