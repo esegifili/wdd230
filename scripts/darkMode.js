@@ -1,5 +1,6 @@
 const myBtn = document.querySelector('#mode')
 
 myBtn.addEventListener('click', () => {
-  main.classList.toggle('dark')
+  const element = document.main
+  element.classList.toggle('dark')
 })
