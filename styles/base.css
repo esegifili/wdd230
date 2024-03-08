@@ -29,9 +29,13 @@ header {
   font-size: 2rem;
 }
 
-main .dark {
+main.dark {
   background-color: black;
   margin: 0;
+}
+
+main.dark h1 {
+  color: whitesmoke;
 }
 
 img {
