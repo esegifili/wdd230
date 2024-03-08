@@ -26,6 +26,7 @@ button {
   font-size: 3rem;
   cursor: pointer;
   font-size: 2rem;
+  padding: 0;
 }
 
 .dark-mode {
