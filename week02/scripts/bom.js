@@ -3,15 +3,16 @@ const input = document.querySelector('#favchap')
 const list = documentquerySelector('#list')
 
 button.addEventListener('click', () => {
-  if (input.value != '') {
-    input.value = ''
-  }
+  const scrip = input.value
+  input.value = ''
 
   const li = document.createElement('li')
+  const listText = document.createElement('span')
   const deleteButton = document.createElement('button')
 
-  li.textContent = input.value
+  li.textContent = scrip
   deleteButton.textContent = '❌'
+  listText.textContent = scrip
   li.append(deleteButton)
   list.append(li)
 
