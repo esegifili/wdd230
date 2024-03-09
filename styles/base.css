@@ -58,31 +58,52 @@ h1 {
   font-style: normal;
 }
 
-nav {
-  background-color: #f5c4bb;
-  margin: 0;
-}
-
-nav ul {
-  list-style-type: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-nav a {
-  display: block;
+#menu {
+  font-size: 1.5rem;
+  border: 0;
+  background: none;
   color: black;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+#menu::before {
+  content: '☰';
+}
+
+#menu::before {
+  content: 'Ｘ';
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  background-color: #f5c4bb;
+  color: black;
+}
+
+.navigation ul a {
+  display: none;
+  padding: 1rem;
   text-align: center;
-  padding: 0.5rem;
   text-decoration: none;
+  color: black;
 }
 
-nav a:hover {
+.navigation a:hover {
   background-color: rgba(45, 142, 151, 0.306);
+  color: black;
+  font-weight: 700;
 }
 
-nav ul .active {
+.navigation ul .active {
   background-color: rgba(93, 210, 220, 0.902);
+}
+
+.open a {
+  display: block;
 }
 
 main {
