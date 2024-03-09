@@ -58,13 +58,18 @@ h1 {
   font-style: normal;
 }
 
+nav {
+  max-width: 700px;
+  margin: 1rem auto;
+}
+
 #menu {
   font-size: 1.5rem;
   border: 0;
   background: none;
   color: black;
   position: absolute;
-  top: 0px;
+  bottom: 5px;
   right: 10px;
 }
 
@@ -84,7 +89,7 @@ h1 {
   color: black;
 }
 
-.navigation ul {
+.navigation ul li a {
   display: none;
   padding: 1rem;
   text-align: center;

@@ -23,7 +23,7 @@
     display: flex;
   }
 
-  nav ul li {
+  .navigation ul li {
     flex: 1 1 100%;
     font-size: 1.2rem;
   }
