@@ -19,13 +19,45 @@
     font-size: 2rem;
   }
 
-  nav ul {
+  nav.navigation {
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .navigation ul {
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #f5c4bb;
+    color: black;
+  }
+
+  .navigation a {
     display: flex;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+    justify-content: center;
+  }
+
+  .navigation a:hover {
+    background-color: rgba(45, 142, 151, 0.306);
+    color: black;
+    font-weight: 700;
+  }
+
+  .navigation ul .active {
+    background-color: rgba(93, 210, 220, 0.902);
   }
 
   .navigation ul li {
     flex: 1 1 100%;
     font-size: 1.2rem;
+  }
+
+  button#menu {
+    display: none;
   }
 
   main {
