@@ -1,7 +1,3 @@
-let copyear = new Date()
-let currentYear = copyear.getFullYear()
+let modified = new Date(document.lastModified)
 
-let lastMod = new Date(document.lastModified)
-
-document.getElementById('currentYear').textContent = currentYear
-document.getElementById('lastMod').innerHTML = 'Last modified on : ' + lastMod
+document.getElementById('modified').innerHTML = 'Last modified on : ' + modified
