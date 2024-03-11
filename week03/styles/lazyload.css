@@ -5,14 +5,13 @@ h1 {
 main {
   margin: 0 auto;
   width: 400px;
-  display: flex;
-  flex-direction: column;
 }
 
 img {
+  display: block;
   width: 100%;
   background-color: black;
-  animation: fade 2s;
+  animation: fade 5s;
 }
 
 @keyframes fade {
