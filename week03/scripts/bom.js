@@ -32,3 +32,17 @@ function displayList (item) {
     input.focus()
   })
 }
+
+function setChapterList () {
+  localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray))
+}
+
+function getChapterList () {
+  return JSON.parse(localStorage.getItem('myFavBOMList'))
+}
+
+function deleteChapter (chapter) {
+  chapter = chapter.slice(0, chapter.length - 1)
+  chaptersArray = chaptersArray.filter(item => item !== chapter)
+  setChapterList()
+}
