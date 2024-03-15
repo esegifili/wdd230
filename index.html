@@ -37,7 +37,7 @@
     <header>
       <button onclick="dark()">☼</button>
       <img
-        src="images/profile.jpg"
+        src="images/optimized-profile.webp"
         alt="Esther F. Segifili profile picture"
         width="75"
         height="100"
@@ -118,9 +118,23 @@
       </section>
       <section class="card">
         <h2>Information</h2>
-        <p>Weather, number of visits to the page, etc.</p>
+        <p>Number of Visits: <span class="visits"></span></p>
       </section>
+
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15665.863699295294!2d-170.56987500037948!3d-14.28147880648733!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71a68e1d8c78a86b%3A0xb6b4e3e732b9386d!2sAunu&#39;u%2C%20Eastern%20District!5e0!3m2!1sen!2sas!4v1710465666968!5m2!1sen!2sas"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Map of Aunu'u Island in American Samoa"
+        ></iframe>
+      </div>
     </main>
+
     <footer>
       <p>
         &#10051; &#169;<span id="currentYear"></span> &#10051; Esther F.

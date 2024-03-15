@@ -28,11 +28,22 @@ button {
   padding: 0;
 }
 
+main {
+  display: block;
+  background-color: whitesmoke;
+  color: black;
+  margin: auto;
+  max-width: 100%;
+  padding: 1rem;
+}
+
 .dark-mode {
   display: block;
   background-color: black;
-  padding: 1rem;
   color: black;
+  margin: auto;
+  max-width: 100%;
+  padding: 1rem;
 }
 
 .dark-mode h1 {
@@ -40,12 +51,34 @@ button {
 }
 
 .hero {
-  width: 100%;
+  width: 80%;
+  display: block;
+  margin: auto;
+  position: relative;
 }
 
 .hero img {
   width: 100%;
   height: auto;
+}
+
+.heroLabel {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background: radial-gradient(#242e36, #0f0f10);
+  border: none;
+  padding: 0 10px;
+  margin: 2px;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+}
+
+.heroLabel p {
+  font-family: 'Arsenal', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: aliceblue;
 }
 
 img {
@@ -66,11 +99,6 @@ h1 {
   font-family: 'DM Serif Text', serif;
   font-weight: 400;
   font-style: normal;
-}
-
-nav {
-  max-width: 700px;
-  margin: 1rem auto;
 }
 
 button#menu {
@@ -169,6 +197,18 @@ p {
   text-align: center;
 }
 
+.map {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.map iframe {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   background-color: #ec775f;
+  padding: 5px;
 }
