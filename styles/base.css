@@ -28,11 +28,8 @@ button {
   padding: 0;
 }
 
-main {
-  padding: 1rem;
-}
-
 .dark-mode {
+  display: block;
   background-color: black;
   padding: 1rem;
   color: black;
@@ -40,6 +37,15 @@ main {
 
 .dark-mode h1 {
   color: whitesmoke;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
 }
 
 img {

@@ -62,13 +62,17 @@
 
     <main>
       <div class="hero">
-        <picture id="heroImg">
+        <picture>
           <source srcset="images/small-hero.webp" media="(max-width: 500px)" />
+          <source
+            srcset="images/wide-banner-hero.webp"
+            media="(max-width: 1000px)"
+          />
           <img
             src="images/banner-hero.webp"
             alt="white hibiscus flower hero image"
-            width="1087"
-            height="600"
+            width="2"
+            height="1"
           />
         </picture>
         <button id="actionBtn">Click to Join!</button>

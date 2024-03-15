@@ -54,7 +54,29 @@
         <li><a href="#">Form</a></li>
       </ul>
     </nav>
+
     <main class="dark-mode">
+      <div class="hero">
+        <picture>
+          <source
+            srcset="images/small-temple-hero.webp"
+            media="(max-width: 400px)"
+          />
+          <source
+            srcset="images/large-temple-hero.webp"
+            media="(max-width: 960px)"
+          />
+          <img
+            src="images/large-temple-hero.webp"
+            alt="Laie Hawaii LDS Temple"
+            width="2"
+            height="1"
+          />
+        </picture>
+        <div class="heroLabel">
+          <p>Laie Hawaii Temple</p>
+        </div>
+      </div>
       <h1 id="wddtitle">WDD 230: Web Frontend Development</h1>
       <section class="card">
         <h2>Learning Activities</h2>
