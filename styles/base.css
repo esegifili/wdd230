@@ -12,6 +12,11 @@ header {
   font-family: 'Besley', serif;
   font-weight: 500;
   font-style: normal;
+  font-size: 1.8rem;
+}
+
+header span {
+  align-items: center;
 }
 
 header span img {
@@ -38,12 +43,6 @@ nav ul li {
   padding: 8px;
 }
 
-nav ul li:hover {
-  background-color: #abd1b5;
-  font-size: larger;
-  color: #51291e;
-}
-
 nav ul li a {
   text-decoration: none;
   color: #301014;
@@ -60,16 +59,17 @@ main {
   padding-bottom: 1rem;
 }
 
-h2 {
+h1 {
   color: #edf4ed;
   text-align: center;
   font-family: 'Besley', serif;
   font-weight: 500;
   font-style: normal;
   margin-top: 0px;
+  padding: 1rem;
 }
 
-h3 {
+h2 {
   font-family: 'Besley', serif;
   font-weight: 600;
   font-style: normal;
@@ -122,6 +122,7 @@ footer p {
   margin: 0px;
 }
 
-#flag-img {
+footer img {
   text-align: center;
+  padding: 10px;
 }
