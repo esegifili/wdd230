@@ -110,6 +110,10 @@ ul li a {
   list-style: none;
 }
 
+.card a {
+  color: #004e64;
+}
+
 footer {
   background-color: #301014;
   margin-top: 10px;
