@@ -13,6 +13,10 @@ header {
 }
 
 header span {
+  align-items: center;
+}
+
+header span {
   justify-content: center;
   display: flex;
 }
@@ -20,11 +24,6 @@ header span {
 header span img {
   padding: 1rem;
   width: 100px;
-}
-
-header h3 {
-  font-size: 1.5rem;
-  align-self: center;
 }
 
 nav {
