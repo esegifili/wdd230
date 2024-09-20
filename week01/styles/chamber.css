@@ -16,10 +16,6 @@ h2 {
   margin: 0;
 }
 
-img {
-  width: 400px;
-}
-
 header {
   height: 100px;
   text-align: center;
@@ -38,9 +34,17 @@ main {
   margin: auto;
 }
 
+img {
+  width: 400px;
+}
+
 section {
   padding: 1rem;
   margin-bottom: 10px;
   background-color: #606c38;
   border-radius: 5px;
+}
+
+footer {
+  text-align: center;
 }
