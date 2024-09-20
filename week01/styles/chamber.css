@@ -1,0 +1,46 @@
+h3,
+p {
+  font-family: 'Tauri', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,
+h2 {
+  font-family: 'Sedan SC', serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+h2 {
+  margin: 0;
+}
+
+img {
+  width: 400px;
+}
+
+header {
+  height: 100px;
+  text-align: center;
+  background-color: #283618;
+  color: #fefae0;
+  align-content: center;
+}
+
+body {
+  background-color: #fefae0;
+}
+
+main {
+  background-color: #fefae0;
+  max-width: 90%;
+  margin: auto;
+}
+
+section {
+  padding: 1rem;
+  margin-bottom: 10px;
+  background-color: #606c38;
+  border-radius: 5px;
+}
