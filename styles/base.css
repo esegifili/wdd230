@@ -88,8 +88,9 @@ main {
 }
 
 .card ul a {
+  font-weight: 600;
+  color: #104547;
   text-decoration: none;
-  color: black;
 }
 
 .card ul li {
