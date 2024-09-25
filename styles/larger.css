@@ -4,9 +4,14 @@
     justify-items: center;
   }
 
-  nav ul li:hover {
-    background-color: #10454746;
-    font-size: larger;
+  .menuBtn {
+    display: none;
+  }
+
+  ul.menuLinks,
+  ul.menuLinks.open {
+    display: flex;
+    flex: 1 1 100%;
   }
 
   nav ul {
@@ -23,6 +28,11 @@
   nav a {
     height: 100%;
     padding: 10px;
+  }
+
+  ul.menuLinks a:hover {
+    background-color: #10454746;
+    font-size: larger;
   }
 
   h1 {
