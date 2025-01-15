@@ -1,0 +1,88 @@
+header {
+  background-color: #003135;
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  column-gap: 1.5rem;
+}
+h1 {
+  color: #f1f9f5;
+  font-family: 'Spectral', serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+img {
+  width: 75px;
+}
+
+nav {
+  background-color: #c3e9cf;
+  display: block;
+}
+
+nav ul {
+  margin: auto;
+  padding-left: 0;
+  text-align: center;
+}
+
+nav ul li {
+  padding: 0.7rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Cabin Condensed', serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: black;
+}
+
+main {
+  max-width: 90%;
+  background-color: white;
+  margin: auto;
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  padding: 1rem;
+}
+
+.card {
+  font-family: 'Cabin Condensed', serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: #f1f9f5;
+  border: 2px solid #dae0dd;
+  margin-bottom: 1rem;
+  box-shadow: 20px 20px 10px rgba(164, 177, 189, 0.169);
+}
+
+.card ul li {
+  list-style: none;
+  padding: 1rem;
+}
+
+.card p {
+  padding: 1rem;
+}
+h2 {
+  font-family: 'Spectral', serif;
+  font-weight: 500;
+  font-style: normal;
+  text-align: center;
+}
+
+h3 {
+  background-color: #c3e9cf;
+  padding: 1rem;
+  margin: 0;
+}
+
+footer {
+  background-color: #003135;
+  padding: 1rem;
+  color: #f1f9f5;
+  text-align: center;
+}
