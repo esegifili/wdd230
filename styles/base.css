@@ -18,10 +18,10 @@ img {
 
 nav {
   background-color: #c3e9cf;
-  display: block;
 }
 
 nav ul {
+  display: block;
   margin: auto;
   padding-left: 0;
   text-align: center;
