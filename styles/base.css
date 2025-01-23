@@ -16,19 +16,57 @@ img {
   width: 75px;
 }
 
-nav {
+#menu {
+  background: none;
+  border: 0;
+  color: #dae0dd;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 1.5rem;
+}
+
+#menu.show::before {
+  content: '✕';
   background-color: #c3e9cf;
+  color: black;
 }
 
-nav ul {
-  display: block;
+ul.navigation.show {
   margin: auto;
-  padding-left: 0;
-  text-align: center;
+  padding: 0;
 }
 
-nav ul li {
-  padding: 0.7rem;
+#menu::before {
+  content: '☰';
+  background-color: #c3e9cf;
+  color: black;
+  padding: 0.3rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #c3e9cf;
+  color: black;
+}
+
+.navigation a {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.show a {
+  display: block;
+}
+
+.active::before {
+  content: '🌸';
 }
 
 nav ul li a {
@@ -47,6 +85,7 @@ main {
   display: grid;
   grid-template-rows: auto 1fr 1fr;
   padding: 1rem;
+  padding-top: 0;
 }
 
 .card {
