@@ -68,6 +68,10 @@ main {
   text-decoration: none;
 }
 
+.card ul li a::before {
+  content: '🌸';
+}
+
 .card p {
   padding: 1rem;
 }
