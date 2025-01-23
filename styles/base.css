@@ -68,7 +68,7 @@ main {
   text-decoration: none;
 }
 
-.card ul li a::before {
+.card li a::before {
   content: '🌸';
 }
 
