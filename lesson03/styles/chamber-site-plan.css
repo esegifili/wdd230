@@ -23,12 +23,6 @@ img {
   width: 200px;
 }
 
-section.frames {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto 1fr;
-}
-
 section {
   padding: 1rem;
 }
@@ -52,20 +46,6 @@ h2 {
   text-align: center;
   background-color: #024950;
   color: white;
-}
-
-.frames h2 {
-  grid-row: 1/2;
-  grid-column: 1/3;
-}
-
-.frame1 {
-  grid-column: 1/2;
-  grid-row: 2/3;
-}
-
-.frame2 {
-  grid-column: 2/3;
 }
 
 footer {
