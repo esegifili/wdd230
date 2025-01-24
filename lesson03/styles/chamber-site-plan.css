@@ -7,20 +7,23 @@ h1 {
 
 header {
   background-color: #003135;
-  max-width: 80%;
+  max-width: 90%;
   margin: auto;
-  padding: 1rem;
+  padding: 0.5rem;
   text-align: center;
 }
 
 main {
-  max-width: 75%;
+  max-width: 85%;
   margin: auto;
   background-color: whitesmoke;
 }
 
 img {
-  width: 200px;
+  display: block;
+  margin: auto;
+  width: 50%;
+  height: auto;
 }
 
 section {
