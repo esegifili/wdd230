@@ -29,6 +29,7 @@
   }
 
   main {
+    max-width: 75%;
     display: grid;
     grid-template-columns: 1fr 1fr auto;
     grid-template-rows: auto 1fr;
@@ -36,5 +37,12 @@
 
   #menu {
     display: none;
+  }
+
+  .map {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 50%;
   }
 }
