@@ -1,4 +1,8 @@
 @media (min-width: 520px) {
+  #mode {
+    font-size: 2.4rem;
+  }
+
   #menu {
     display: none;
   }
@@ -94,23 +98,3 @@
     grid-row: 1/2;
   }
 }
-/* .navbar {
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-  }
-  .nav-container {
-    display: flex;
-    align-items: center;
-  }
-  .nav-container nav ul {
-    display: flex;
-  }
-  .nav-container nav li {
-    margin-right: 20px;
-  }
-  .nav-container a {
-    font-size: 1.2rem;
-    color: white;
-  }
-}*/
