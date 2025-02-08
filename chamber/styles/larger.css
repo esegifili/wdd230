@@ -1,0 +1,169 @@
+body {
+  background-color: #003135;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  height: 100px;
+  width: 100vw;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
+.hero-img {
+  background-position: 50% 50%;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+button.actionBtn {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  background-color: #0fa4af;
+  padding: 5px;
+  position: absolute;
+  bottom: 25px;
+  left: 15px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: -5px -5px 15px #626262, 5px 5px 10px #babecc6b;
+}
+
+#menu {
+  background: none;
+  border: 0;
+  color: #dae0dd;
+  position: relative;
+  top: 60px;
+  right: 2px;
+  font-size: 2rem;
+}
+
+#menu.show::before {
+  content: '✕';
+  background-color: none;
+  color: #c3e9cf;
+}
+
+ul.navigation.show {
+  margin: auto;
+  padding: 0;
+}
+
+#menu::before {
+  content: '☰';
+  color: #0fa4af;
+  padding: 0.3rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style: none;
+  background-color: #c3e9cf;
+  color: black;
+}
+
+.navigation a {
+  display: none;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.show a {
+  display: block;
+}
+
+.active::before {
+  content: '🌸';
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Lato', serif;
+  font-size: 1.2rem;
+  color: black;
+}
+
+main {
+  display: block;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-top: 0;
+  padding-left: 1rem;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-family: 'Lato', serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+h3 {
+  margin: 0;
+  padding-left: 1rem;
+  font-family: 'Oswald', serif;
+}
+
+section.sect1,
+section.sect2,
+section.sect3 {
+  border: black solid 1px;
+  padding: 1rem;
+  text-align: center;
+  max-width: 95%;
+  height: auto;
+  background-color: #dae0dd;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+section {
+  display: block;
+  width: 80%;
+  height: 60px;
+  border: #964734 double 2px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #0fa4af;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0.3rem;
+  font-family: 'Lato', serif;
+}
