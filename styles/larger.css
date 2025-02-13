@@ -9,6 +9,11 @@
     margin: auto;
   }
 
+  img {
+    width: 120px;
+    height: auto;
+  }
+
   .navigation {
     flex-direction: row;
   }
