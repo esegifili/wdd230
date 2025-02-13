@@ -58,6 +58,10 @@
     height: auto;
   }
 
+  .hero-label {
+    font-size: 1.5rem;
+  }
+
   .card {
     grid-row: 2/3;
   }

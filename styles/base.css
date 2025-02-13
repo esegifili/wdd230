@@ -89,6 +89,28 @@ main {
   padding-top: 0;
   padding-bottom: 0;
 }
+.hero {
+  position: relative;
+}
+
+.hero-label {
+  position: absolute;
+  color: white;
+  bottom: 10px;
+  left: 5px;
+  background: black;
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  padding: 0;
+  box-shadow: 0 0 3rem #fff;
+  opacity: 0.75;
+  border-radius: 4px;
+}
+
+.hero-label p {
+  font-family: 'Cabin Condensed', serif;
+  font-weight: 500;
+  padding: 5px;
+}
 
 .hero img {
   width: 100%;
