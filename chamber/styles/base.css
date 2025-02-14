@@ -20,24 +20,18 @@ header {
 .navbar {
   display: block;
   text-align: center;
-  max-width: 100%;
+  margin: auto;
+  padding-top: 1rem;
+  max-width: 80%;
   height: 80px;
-}
-.main-heading {
-  color: white;
-  padding: 1rem;
-}
-.sub-heading {
-  margin: 0;
-  padding-top: 0.2rem;
-  font-family: 'Quicksand', serif;
-  font-weight: 400;
-  font-size: 1.2rem;
 }
 
 h1 {
   margin: 0;
   font-family: 'Lato', serif;
+  font-size: 1.5rem;
+  color: white;
+  text-align: left;
 }
 
 #menu {
