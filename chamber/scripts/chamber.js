@@ -16,6 +16,7 @@ sun.addEventListener('click', () => {
   if (sun.textContent.includes('☀')) {
     main.style.background = '#dae0dd'
     sun.textContent = '☽'
+    main.style.color = '#000'
   } else {
     main.style.background = '#13181b'
     sun.textContent = '☀'
